@@ -20,7 +20,7 @@ class JSONEncoder(json.JSONEncoder):
 
 
 class ConfigDB:
-    """ CRIAR UM NOVO USUARIO """
+    """ CRIAR NOVO USUÁRIO """
 
     def save(self, user):
         userFilter = col.find_one({"cpf": user['cpf']})
